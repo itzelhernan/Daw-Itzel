@@ -1,0 +1,23 @@
+{
+  "name": "ProjectTwo",
+  "homepage": "https://github.com/itzelhernan/Daw-Itzel",
+  "authors": [
+    "itzelhernan itzelandiia@gmail.com"
+  ],
+  "description": "este es mi proyecto numero dos",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "fontawesome": "^5.0.13",
+    "jquery": "^3.3.1"
+  }
+}
