@@ -34,10 +34,19 @@
   </div>
 
 </nav>
-
-
   <!-- se agrega la libreria de JS-->
   <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js">  </script>
+    <<script src="bower_components/hammerjs/hammer.js"></script>
+    <script>
+    var $body= document.body;
+    var hammertime = new Hammer($body);
+    hammertime.on('swipeleft', function(ev) {
+    console.log(ev);
+    });
+    hammertime.on('swiperight', function(ev) {
+    console.log(ev);
+    });
+    </script>
 </body>
 </html>
