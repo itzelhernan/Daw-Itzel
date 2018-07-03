@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -19,7 +19,7 @@
   <div id="navegacion" class=" justify-content-end collapse navbar-collapse">
     <ul class="navbar-nav">
       <li class="nav-item"> <a href="index.html" class="nav-link">Home</a></li>
-      <li class="nav-item"> <a href="Products.html" class="nav-link">Products</a></li>
+      <li class="nav-item"> <a href="products.html" class="nav-link">Products</a></li>
       <li class="nav-item"><a href="about.html" class="nav-link">About us</a></li>
       <li class="nav-item"> <a href="#" class="nav-link" data-toggle="modal" data-target="#modal-contact-form">Contact us</a></li>
       <li class="nav-item" > <form class="form-inline my-2 my-lg-0">
@@ -30,75 +30,56 @@
     </ul>
   </div>
 </nav>
-<hr>
-<hr><hr>
 <div class="container">
-   <div class="row">
-     <div class="col-md-4">
-       <h1>Featured Product</h1>
-       <p>Lorem ipsum dolor sit amet.</p>
-       <div class="btn-group btn-group-lg">
-         <button class="btn btn-info">Buy Now!</button>
-         <button class="btn btn-default">Free Trial</button>
-       </div>
-       <p><a href="#">Read more about the product</a></p>
-         </div>
-       <div class="col-md-8 d-none d-sm-block">
-        <br><img src="img/AchatsKeyla.jpg"width="400px" height="300px"></br>
-      </div>
-    </div>
-    <hr>
-  <div class="row">
-    <div class="col-md-8">
-      <h3>The company</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel unde recusandae, tempora modi accusantium in consequuntur quia velit perferendis minima delectus omnis placeat quaerat illo officiis dolorem, dolore nisi adipisci.</p>
-  </div>
-  <div class="col-md-4">
-    <p class="bg-light rounded lead text-center p-md-5 m-md-3">
-      Our Motto
-    </p>
-  </div>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="index.html">Home</a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="#">Products</a>
+      </li>
+    </ol>
+  </nav>
+<div class="row">
+  <h1>Products. <small class="text-muted">  We build amazing stuff</small></h1>
 </div>
-<!-- /.row -->
 <hr>
 <div class="row">
-  <h3>Testimonials</h3>
-  <div class="col-md-12 text-center">
-    <div class="carousel slide" id="carouselTestimonios" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <blockquote class="blockquote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur veniam labore quia debitis, consectetur minima autem porro molestias ullam, itaque?</p>
-            <footer class="blockquote-footer">
-              Gustavo Sandoval
-            </footer>
-          </blockquote> <!-- end blockquote -->
-        </div>
-        <div class="carousel-item">
-          <blockquote class="blockquote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur veniam labore quia debitis, consectetur minima autem porro molestias ullam, itaque?</p>
-            <footer class="blockquote-footer">
-              Exy Ralph Pierre Rhode
-            </footer>
-          </blockquote> <!-- end blockquote -->
-        </div>
-        <div class="carousel-item">
-          <blockquote class="blockquote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur veniam labore quia debitis, consectetur minima autem porro molestias ullam, itaque?</p>
-            <footer class="blockquote-footer">
-              Itzel Guadalupe
-            </footer>
-          </blockquote> <!-- end blockquote -->
-        </div>
-      </div>
+  <div class="card col-md-4">
+    <img src="img/1.jpg" alt="" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Product 1</h5>
+      <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, fugit, ipsam.</p>
+      <a href="product-single.html" class="btn btn-primary">ver mas ...</a>
+     </div>
+  </div>
+  <!-- /.card-col-md-4 -->
+  <div class="card col-md-4">
+    <img src="img/2.jpg" alt="" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Product 2</h5>
+      <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, fugit, ipsam.</p>
+      <a href="product-single.html" class="btn btn-primary">ver mas ...</a>
+     </div>
+  </div>
+
+  <!-- /.card-col-md-4 -->
+    <div class="card col-md-4">
+      <img src="img/3.jpg" alt="" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Product 3</h5>
+        <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, fugit, ipsam.</p>
+        <a href="product-single.html" class="btn btn-primary">ver mas ...</a>
+       </div>
+    </div>
+    <!-- /.card-col-md-4 -->
 </div>
-</div>
-<!-- /.col md-12 text-center -->
-   </div>
-   <hr>
+
    <div class="footer">
-     <p class="text-center lead ">
-       Wanna get in touch? Email us at itzelg.hernandez@alumno.uttehuacan.edu.mx
+    <hr>
+     <p class="text-center lead">
+       Wanna get in touch? Email us at gustavo.sandoval.mendoza@alumno.uttehuacan.edu.mx
      </p>
      <hr>
      <ul class="list-unstyled text-center col-md-12 letra">
@@ -111,7 +92,7 @@
      </p>
    </div>
    <!--row-->
-   </div>
+</div>
 
 <div class="modal fade" id="modal-contact-form" role="dialog">
   <div class="modal-dialog" role="document">
